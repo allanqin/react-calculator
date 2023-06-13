@@ -13,7 +13,7 @@ const Operations = () => {
             <button onClick={()=>dispatch(multiply(input))}>*</button>
             <button onClick={()=>dispatch(divide(input))}>/</button>
             <button onClick={()=>dispatch(inputClear())}>Clear Input</button>
-            <button onClick={()=>dispatch(valueClear())}>Clear Results</button>
+            <button onClick={()=>dispatch(valueClear())}>Clear Total</button>
         </div>
     )
 };
