@@ -1,0 +1,12 @@
+.Operations {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  grid-gap: 4px;
+  margin: 2px;
+}
+
+.Operations > * {
+  flex: 1;
+  border-radius: 3px;
+}

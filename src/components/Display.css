@@ -1,0 +1,26 @@
+.Display {
+    width: auto;
+    height: 15%;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 10px 0px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.flex-3 {
+    flex: 3;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    overflow-x: auto;
+}
+
+.flex-1 {
+    flex: 1;
+}
